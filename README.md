@@ -23,8 +23,8 @@ The dashboard allows users to filter and shortlist players based on specific rol
 ## Data
 
 - Data has been taken from Kaggle [[Dataset Link]](https://www.kaggle.com/datasets/rajsengo/icc-mens-t20-world-cup)
-- The data consists of match level details, summary, batting card and bowling card of each match
-- Relevant information has been captured and the clean data is present in the data directory
+- The data consists of match-level details, summary, batting card and bowling card of each match
+- Relevant information has been captured, and the clean data is present in the data directory
 
 ---
 ##  Dashboard Highlights
@@ -40,7 +40,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  Openers
 | Parameter         | Criteria |
-|-------------------|----------|
+| --- | --- |
 | Batting Average   | > 30     |
 | Strike Rate       | > 140    |
 | Innings Batted    | > 3      |
@@ -49,7 +49,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  Anchors / Middle Order
 | Parameter         | Criteria |
-|------------------|----------|
+| --- | --- |
 | Batting Average   | > 40     |
 | Strike Rate       | > 125    |
 | Innings Batted    | > 3      |
@@ -58,7 +58,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  Finishers / Lower Order Anchors
 | Parameter         | Criteria |
-|-------------------|----------|
+| --- | --- |
 | Batting Average   | > 25     |
 | Strike Rate       | > 130    |
 | Innings Batted    | > 3      |
@@ -68,7 +68,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  All-Rounders
 | Parameter           | Criteria |
-|---------------------|----------|
+| --- | --- |
 | Batting Average     | > 15     |
 | Strike Rate         | > 140    |
 | Innings Batted      | > 2      |
@@ -79,7 +79,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  Specialist Fast Bowlers
 | Parameter           | Criteria        |
-|---------------------|-----------------|
+| --- | --- |
 | Innings Bowled      | > 4             |
 | Bowling Economy     | < 7             |
 | Bowling Strike Rate | < 16            |
