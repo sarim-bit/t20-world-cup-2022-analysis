@@ -1,0 +1,80 @@
+table dim_players
+	lineageTag: ea71cb76-b1eb-47ce-b108-398c9770763a
+
+	column Name
+		dataType: string
+		lineageTag: 76551e65-554f-4bb9-9573-b8931515cc58
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Team
+		dataType: string
+		lineageTag: d6fd74a4-2f2e-447c-9607-cef954379d07
+		summarizeBy: none
+		sourceColumn: Team
+
+		annotation SummarizationSetBy = Automatic
+
+	column Image
+		dataType: string
+		lineageTag: f4f44173-fd24-4f3f-876d-e6dad77e3360
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Image
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Batting Style'
+		dataType: string
+		lineageTag: 6da1fe7a-634f-4305-a757-ebe5f901638e
+		summarizeBy: none
+		sourceColumn: Batting Style
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Bowling Style'
+		dataType: string
+		lineageTag: eca7db52-a276-4795-9918-965f34111b29
+		summarizeBy: none
+		sourceColumn: Bowling Style
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Playing Role'
+		dataType: string
+		lineageTag: be0968ca-e071-445e-abb6-8ae0df27bfc7
+		summarizeBy: none
+		sourceColumn: Playing Role
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: c5f31d83-dd3e-41ad-af89-959fc5bab151
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_players-dab24833-e4aa-4a20-b73c-4e38ef68e3d4 = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("D:\Projects\t20-world-cup-2022-analysis\data"),
+				    #"D:\Projects\t20-world-cup-2022-analysis\data\_dim_players csv" = Source{[#"Folder Path"="D:\Projects\t20-world-cup-2022-analysis\data\",Name="dim_players.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"D:\Projects\t20-world-cup-2022-analysis\data\_dim_players csv",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.Csv]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Imported CSV",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"name", type text}, {"team", type text}, {"image", type text}, {"battingStyle", type text}, {"bowlingStyle", type text}, {"playingRole", type text}, {"description", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type1","(c)","",Replacer.ReplaceText,{"name"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Replaced Value",{{"name", "Name"}, {"team", "Team"}, {"image", "Image"}, {"battingStyle", "Batting Style"}, {"bowlingStyle", "Bowling Style"}, {"playingRole", "Playing Role"}, {"description", "Description"}}),
+				    #"Removed Duplicates" = Table.Distinct(#"Renamed Columns", {"Name"})
+				in
+				    #"Removed Duplicates"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

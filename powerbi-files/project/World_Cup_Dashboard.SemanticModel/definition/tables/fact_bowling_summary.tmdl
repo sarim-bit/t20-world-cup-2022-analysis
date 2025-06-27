@@ -1,0 +1,164 @@
+table fact_bowling_summary
+	lineageTag: 79bbef0d-15f6-401f-9164-6ba389a5a4c7
+
+	column Match
+		dataType: string
+		lineageTag: f9d7c438-20c3-4f67-b0bc-a575b2a177c2
+		summarizeBy: none
+		sourceColumn: Match
+
+		annotation SummarizationSetBy = Automatic
+
+	column Team
+		dataType: string
+		lineageTag: 775f0f95-19cf-4745-adbc-3c935e3f2205
+		summarizeBy: none
+		sourceColumn: Team
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Bowler Name'
+		dataType: string
+		lineageTag: e1469641-03c2-4686-9cbf-4a3f5b680726
+		summarizeBy: none
+		sourceColumn: Bowler Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Balls
+		dataType: int64
+		formatString: 0
+		lineageTag: 682fc07c-17b7-45a5-9cef-0a6206e7bf76
+		summarizeBy: sum
+		sourceColumn: Balls
+
+		annotation SummarizationSetBy = Automatic
+
+	column Maiden
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ac9b8e2-d328-4993-b902-4ace75dc85f3
+		summarizeBy: sum
+		sourceColumn: Maiden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Runs
+		dataType: int64
+		formatString: 0
+		lineageTag: 9f69a342-503c-46ac-8ac5-81bd6378cf2b
+		summarizeBy: sum
+		sourceColumn: Runs
+
+		annotation SummarizationSetBy = Automatic
+
+	column Wickets
+		dataType: int64
+		formatString: 0
+		lineageTag: aac9988b-b630-4374-9d9a-524113ea8150
+		summarizeBy: sum
+		sourceColumn: Wickets
+
+		annotation SummarizationSetBy = Automatic
+
+	column Economy
+		dataType: double
+		lineageTag: 12b1d653-8bf6-4020-b5ff-52902a8be2bf
+		summarizeBy: sum
+		sourceColumn: Economy
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Zeroes
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a0801b3-724a-4182-9403-43002074e9de
+		summarizeBy: sum
+		sourceColumn: Zeroes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fours
+		dataType: int64
+		formatString: 0
+		lineageTag: 8ae94e32-9641-4da4-904e-6dc6743bb94a
+		summarizeBy: sum
+		sourceColumn: Fours
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sixes
+		dataType: int64
+		formatString: 0
+		lineageTag: 98bc70d7-9e53-4727-b0f4-42bb02a7f926
+		summarizeBy: sum
+		sourceColumn: Sixes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Wides
+		dataType: int64
+		formatString: 0
+		lineageTag: bb07e988-3203-4861-879b-1b0e67e3faa1
+		summarizeBy: sum
+		sourceColumn: Wides
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'No Balls'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b7c31d3-18bd-4e03-9ffc-89a621fffa36
+		summarizeBy: sum
+		sourceColumn: No Balls
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Match ID'
+		dataType: string
+		lineageTag: cfa0b679-09fb-4b7a-b672-44e02b24ad0a
+		summarizeBy: none
+		sourceColumn: Match ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Boundary Runs Bowling'
+		dataType: int64
+		formatString: 0
+		lineageTag: 71b34aab-2196-468f-9b71-22fae333997f
+		summarizeBy: sum
+		sourceColumn: Boundary Runs Bowling
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_bowling_summary-221a7adf-3256-44d2-ab4a-6409d0da314b = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("D:\Projects\t20-world-cup-2022-analysis\data"),
+				    #"D:\Projects\t20-world-cup-2022-analysis\data\_fact_bowling_summary csv" = Source{[#"Folder Path"="D:\Projects\t20-world-cup-2022-analysis\data\",Name="fact_bowling_summary.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"D:\Projects\t20-world-cup-2022-analysis\data\_fact_bowling_summary csv",[Delimiter=",", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"match", type text}, {"bowlingTeam", type text}, {"bowlerName", type text}, {"overs", type number}, {"maiden", Int64.Type}, {"runs", Int64.Type}, {"wickets", Int64.Type}, {"economy", type number}, {"0s", Int64.Type}, {"4s", Int64.Type}, {"6s", Int64.Type}, {"wides", Int64.Type}, {"noBalls", Int64.Type}, {"match_id", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"match", "Match"}, {"bowlingTeam", "Bowling Team"}, {"bowlerName", "Bowler Name"}, {"overs", "Overs"}, {"maiden", "Maiden"}, {"runs", "Runs"}, {"wickets", "Wickets"}, {"economy", "Economy"}, {"wides", "Wides"}, {"noBalls", "No Balls"}, {"match_id", "Match ID"}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Renamed Columns","(c)","",Replacer.ReplaceText,{"Bowler Name"}),
+				    #"Trimmed Text" = Table.TransformColumns(#"Replaced Value",{{"Bowler Name", Text.Trim, type text}}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Trimmed Text",{{"Bowling Team", "Team"}, {"0s", "Zeroes"}, {"4s", "Fours"}, {"6s", "Sixes"}}),
+				    #"Split Column by Delimiter" = Table.SplitColumn(Table.TransformColumnTypes(#"Renamed Columns1", {{"Overs", type text}}, "en-IN"), "Overs", Splitter.SplitTextByDelimiter(".", QuoteStyle.Csv), {"Overs.1", "Overs.2"}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Split Column by Delimiter",{{"Overs.1", Int64.Type}, {"Overs.2", Int64.Type}}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Changed Type1",null,0,Replacer.ReplaceValue,{"Overs.2"}),
+				    #"Added Custom" = Table.AddColumn(#"Replaced Value1", "Balls", each [Overs.1]*6 + [Overs.2]),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Added Custom",{"Match", "Team", "Bowler Name", "Overs.1", "Overs.2", "Balls", "Maiden", "Runs", "Wickets", "Economy", "Zeroes", "Fours", "Sixes", "Wides", "No Balls", "Match ID"}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Reordered Columns",{"Overs.1", "Overs.2"}),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Removed Columns",{{"Balls", Int64.Type}}),
+				    #"Added Custom1" = Table.AddColumn(#"Changed Type2", "Boundary Runs Bowling", each [Fours]*4 + [Sixes]*6),
+				    #"Changed Type3" = Table.TransformColumnTypes(#"Added Custom1",{{"Boundary Runs Bowling", Int64.Type}})
+				in
+				    #"Changed Type3"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

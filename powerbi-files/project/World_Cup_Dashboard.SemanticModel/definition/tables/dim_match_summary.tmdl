@@ -1,0 +1,94 @@
+table dim_match_summary
+	lineageTag: 817c9c0d-47f5-47a3-8790-7aa0e1a55d4c
+
+	column 'Team 1'
+		dataType: string
+		lineageTag: 2543e13b-9693-47f4-aad5-4af47d0b624d
+		summarizeBy: none
+		sourceColumn: Team 1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Team 2'
+		dataType: string
+		lineageTag: d6e8696c-fa30-4964-b486-751f4949a82e
+		summarizeBy: none
+		sourceColumn: Team 2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Winner
+		dataType: string
+		lineageTag: ed453ab0-6432-4508-95ab-385d0be16127
+		summarizeBy: none
+		sourceColumn: Winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Margin
+		dataType: string
+		lineageTag: 79c5187b-6145-4c24-803e-8a72a240bce7
+		summarizeBy: none
+		sourceColumn: Margin
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ground
+		dataType: string
+		lineageTag: 5cbabb55-b1e3-44b3-9490-1b03fdba1c71
+		summarizeBy: none
+		sourceColumn: Ground
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Match Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4197dd8c-2e35-4d9b-a67e-c648f82bfed0
+		summarizeBy: none
+		sourceColumn: Match Date
+
+		variation Variation
+			isDefault
+			relationship: a6c6ba00-9938-4c67-941b-ff53e3502a47
+			defaultHierarchy: LocalDateTable_21ffc926-dc63-4b36-93f7-78a76f254387.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Match ID'
+		dataType: string
+		lineageTag: ca7c0fab-7aa3-4042-8c03-c6b926789a67
+		summarizeBy: none
+		sourceColumn: Match ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Stage
+		dataType: string
+		lineageTag: b77ffce9-b673-4aa4-a3c7-30604dec189d
+		summarizeBy: none
+		sourceColumn: Stage
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_match_summary-fd915575-a3c9-43e9-91b7-8b098fbacbf2 = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("D:\Projects\t20-world-cup-2022-analysis\data"),
+				    #"D:\Projects\t20-world-cup-2022-analysis\data\_dim_match_summary csv" = Source{[#"Folder Path"="D:\Projects\t20-world-cup-2022-analysis\data\",Name="dim_match_summary.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"D:\Projects\t20-world-cup-2022-analysis\data\_dim_match_summary csv",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"team1", type text}, {"team2", type text}, {"winner", type text}, {"margin", type text}, {"ground", type text}, {"matchDate", type date}, {"match_id", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"team1", "Team 1"}, {"team2", "Team 2"}, {"winner", "Winner"}, {"margin", "Margin"}, {"ground", "Ground"}, {"matchDate", "Match Date"}, {"match_id", "Match ID"}}),
+				    #"Added Conditional Column" = Table.AddColumn(#"Renamed Columns", "Stage", each if [Match Date] < #date(2022, 10, 22) then "Qualifier" else "Super 12"),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Added Conditional Column",{{"Stage", type text}})
+				in
+				    #"Changed Type1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

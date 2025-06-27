@@ -1,0 +1,21 @@
+relationship a6c6ba00-9938-4c67-941b-ff53e3502a47
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_match_summary.'Match Date'
+	toColumn: LocalDateTable_21ffc926-dc63-4b36-93f7-78a76f254387.Date
+
+relationship c2338061-4f8a-41ec-8974-190b09714642
+	fromColumn: fact_batting_summary.'Match ID'
+	toColumn: dim_match_summary.'Match ID'
+
+relationship edfdd084-8428-4e8e-88fe-25aae6e22c9f
+	fromColumn: fact_bowling_summary.'Match ID'
+	toColumn: dim_match_summary.'Match ID'
+
+relationship 97eb772a-fbbb-48d6-9726-b597cd7e4798
+	fromColumn: fact_bowling_summary.'Bowler Name'
+	toColumn: dim_players.Name
+
+relationship a4ee128c-3726-4848-8ec9-a3b7f72b827f
+	fromColumn: fact_batting_summary.'Batsman Name'
+	toColumn: dim_players.Name
+

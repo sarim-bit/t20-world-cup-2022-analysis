@@ -1,0 +1,127 @@
+table 'Key Measures'
+	lineageTag: 3d9fffa8-b3ee-4f85-aea0-751cac72ae08
+
+	measure 'Total Runs' = ```
+			SUM(fact_batting_summary[Runs]) 
+			```
+		formatString: 0
+		displayFolder: Batting
+		lineageTag: 0531270e-95ad-4ff1-b121-e74b101581eb
+
+	measure 'Total Innings Batted' = COUNT(fact_batting_summary[Match ID])
+		formatString: 0
+		displayFolder: Batting
+		lineageTag: 49786add-de51-4895-a9e0-fbacf82420a6
+
+	measure 'Total Innings Dismissed' = SUM(fact_batting_summary[OUT])
+		formatString: 0
+		displayFolder: Batting
+		lineageTag: 4b0595de-3bd0-43b5-ae65-5a98faced532
+
+	measure 'Batting Average' = DIVIDE([Total Runs], [Total Innings Dismissed], 0)
+		displayFolder: Batting
+		lineageTag: aed94ea1-087f-4be4-972b-da08f4f1fb44
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Balls Faced' = SUM(fact_batting_summary[Balls])
+		formatString: 0
+		displayFolder: Batting
+		lineageTag: 32849c62-177f-4d0a-9b51-e86986c06426
+
+	measure 'Strike Rate' = DIVIDE([Total Runs], [Total Balls Faced], 0)*100
+		displayFolder: Batting
+		lineageTag: ef372fec-bd3f-4450-a87c-17513111fc8d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Batting Position' = ROUNDUP(AVERAGE(fact_batting_summary[Batting Pos]),0)
+		formatString: 0
+		displayFolder: Batting
+		lineageTag: 34e29a46-9681-4ed9-bdd3-3a3a1e785b06
+
+		changedProperty = FormatString
+
+	measure 'Boundary %' = DIVIDE(SUM(fact_batting_summary[Boundary Runs]), [Total Runs], 0)*100
+		displayFolder: Batting
+		lineageTag: f18e65d2-9dbc-42a5-89cc-59e0e2658ec7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Balls Faced' = AVERAGE(fact_batting_summary[Balls])
+		displayFolder: Batting
+		lineageTag: e2144358-fc12-461c-98c8-783bab307362
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Balls Bowled' = Sum(fact_bowling_summary[Balls])
+		formatString: 0
+		displayFolder: Bowling
+		lineageTag: 63de3414-5e30-41a6-b83e-0b899a42dbe3
+
+	measure 'Runs Conceded' = SUM(fact_bowling_summary[Runs])
+		formatString: 0
+		displayFolder: Bowling
+		lineageTag: 9e96e7d9-b4ee-4664-af2f-9a7dd248213a
+
+	measure Wickets = SUM(fact_bowling_summary[Wickets])
+		formatString: 0
+		displayFolder: Bowling
+		lineageTag: bbaaa7c8-459c-40f4-81fd-9b15e2f0720d
+
+	measure Economy = DIVIDE([Runs Conceded],[Balls Bowled],0)*6
+		displayFolder: Bowling
+		lineageTag: 140845fa-61d8-451b-889c-fe119e2885bb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Bowling Strike Rate' = DIVIDE([Balls Bowled], [Wickets],0)
+		displayFolder: Bowling
+		lineageTag: ca0dceb9-ce6b-474b-8a9e-18aed487f5e8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Bowling Average' = DIVIDE([Runs Conceded], [Wickets], 0)
+		displayFolder: Bowling
+		lineageTag: 9092a0d6-2441-4300-8383-9226ca55500e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Innings Bowled' = DISTINCTCOUNT(fact_bowling_summary[Match ID])
+		formatString: 0
+		displayFolder: Bowling
+		lineageTag: dc990a6b-3b1b-4692-88f3-35be43a5c225
+
+	measure 'Dot Ball %' = DIVIDE(SUM(fact_bowling_summary[Zeroes]),[Balls Bowled], 0)*100
+		displayFolder: Bowling
+		lineageTag: 8f9e8d0e-4acf-4b6a-925a-9fa7331d2e4e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Player Selection' = if(ISFILTERED(dim_players[Name]),"1","0")
+		displayFolder: General
+		lineageTag: b3963749-6a6f-4161-9465-acc6c9cbe586
+
+	measure 'Display Text' = ```
+			if([Player Selection] = "1", " " ,"Select Player(s) by clicking 
+			the player’s name to see their individual or combined strength.")
+			```
+		displayFolder: General
+		lineageTag: ce1f7dd2-6b77-44d1-adb1-8bdece423456
+
+	measure 'Color Callout Value' = if([Player Selection]="0", "#D0CF1D","#1D1D2E")
+		displayFolder: General
+		lineageTag: 9d47b79d-7865-4968-90c0-359213c855db
+
+	partition 'Key Measures-511fa757-96b2-4037-b619-8c221097c71e' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

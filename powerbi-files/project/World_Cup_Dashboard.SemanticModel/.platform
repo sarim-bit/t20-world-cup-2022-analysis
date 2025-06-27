@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "World_Cup_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2652eb20-7be7-4a04-8371-dd5ea1ab6d0e"
+  }
+}

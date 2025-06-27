@@ -1,0 +1,6292 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_match_summary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim match summary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_match_summary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "match summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dim match synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dim match explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dim match extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dim match summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "match synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dim match review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "dim match abstract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.team_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Team 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "team 1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.team_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Team 2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "team 2": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.winner": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Winner"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "winner": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "victor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "conqueror": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frontrunner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "leader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "champion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "champ": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "front-runner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "success": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.margin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Margin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "border": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "brim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "verge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fringe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "side": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.ground": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Ground"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ground": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "earth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "soil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "floor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.match_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Match Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "match moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_match_summary.match_date.variation.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "VariationSource": "Match Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_match_summary.match_date.variation.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "VariationSource": "Match Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "match date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "match yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "match moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "match period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_match_summary.match_date.variation.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "VariationSource": "Match Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "match date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "match qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "match moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "match period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_match_summary.match_date.variation.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "VariationSource": "Match Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "match date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "match mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "match moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "match period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_match_summary.match_date.variation.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "VariationSource": "Match Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "match moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "match period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_match_summary.match_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Match ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_match_summary.stage": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_match_summary",
+			          "ConceptualProperty": "Stage"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stage": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "juncture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "step": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "leg": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "platform": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "podium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "dais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim player": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_players": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "player": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dim actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dim performer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dim entertainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dim trouper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "entertainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trouper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dim thespian": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim play-actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "dim_player.team": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Team"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "team": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lineup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "side": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "squad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "club": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "band": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "panel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "bunch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player.image": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Image"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "image": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "doppelgänger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "twin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "double": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "duplicate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "persona": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "aura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "aspect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "semblance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player.batting_style": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Batting Style"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "batting style": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "style": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "batting panache": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "batting elegance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "batting stylishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "batting flair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "batting smartness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "panache": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "elegance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stylishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "flair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "smartness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player.bowling_style": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Bowling Style"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bowling style": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "style": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "bowling panache": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bowling elegance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bowling stylishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bowling flair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bowling smartness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "panache": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "elegance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stylishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "flair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "smartness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player.playing_role": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Playing Role"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "playing role": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "playing person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "playing hero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "playing heroine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "playing protagonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "protagonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "playing part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "playing character": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dim_player.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_players",
+			          "ConceptualProperty": "Description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fact batting summary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fact_batting_summary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "batting summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fact batting synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact batting explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact batting extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact batting summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "batting synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "batting explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "batting extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "batting summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fact batting review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "fact batting abstract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.match": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Match"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "competition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "game": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "counterpart": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "equivalent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "pair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "partner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.team": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Team"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "team": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lineup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "side": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "squad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "club": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "band": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "panel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "bunch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.batting_pos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Batting Pos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "batting pos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pos": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.batsman_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Batsman Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "batsman name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "batsman": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "batsman nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "batsman title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "batsman label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "batsman tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "hitter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "batter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.run": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Runs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "run": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lane": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "path": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "track": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "route": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "course": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "excursion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "outing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "trip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "ride": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "visit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.ball": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Balls"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ball": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "globule": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "droplet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "spheroid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sphere": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "orb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "globe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pellet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "marble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.fours": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Fours"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fours": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.six": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Sixes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "six": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.sr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "SR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.out": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "OUT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "out": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ready": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contraband": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_batting_summary.match_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_batting_summary",
+			          "ConceptualProperty": "Match ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "match ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fact bowling summary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fact_bowling_summary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "bowling summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fact bowling synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact bowling explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact bowling extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact bowling summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "bowling synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bowling explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bowling extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bowling summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fact bowling review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "fact bowling abstract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.match": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Match"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "match": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "competition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "game": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "counterpart": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "equivalent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "pair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "partner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.team": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Team"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "team": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lineup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "side": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "squad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "club": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "band": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "panel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "bunch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.bowler_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Bowler Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "bowler name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "bowler": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "bowler nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "bowler title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "bowler label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "bowler tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.ball": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Balls"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ball": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "globule": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "droplet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "spheroid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sphere": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "orb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "globe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pellet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "marble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.maiden": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Maiden"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "maiden": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "initial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "original": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "girl": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "damsel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "lass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "maid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.run": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Runs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "run": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lane": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "path": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "track": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "route": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "course": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "excursion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "outing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "trip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "ride": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "visit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.wicket": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Wickets"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wicket": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.economy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Economy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "economy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "budget": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "family": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "low-cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bargain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "frugality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "thrift": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "parsimony": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "saving": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "cost-cutting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.zero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Zeroes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "zippo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "nil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "zip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "zilch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "naught": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.fours": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Fours"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fours": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.six": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Sixes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "six": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.wide": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Wides"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wide": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "eclectic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "comprehensive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "wide-ranging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "broad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "baggy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.no_ball": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "No Balls"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no ball": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number ball": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "no globule": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "no droplet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "no spheroid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "no sphere": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "no orb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "no globe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "no pellet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "no bead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "no marble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary.match_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_bowling_summary",
+			          "ConceptualProperty": "Match ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "match ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "match identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "match credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "key_measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Key Measures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "key measure": {}
+			        },
+			        {
+			          "measure": {
+			            "State": "Deleted",
+			            "LastModified": "2023-01-28T15:10:20.23Z"
+			          }
+			        },
+			        {
+			          "key degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "key quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "key quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "key extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "key amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "key portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "key ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "key_measure.total_runs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Key Measures",
+			          "ConceptualProperty": "Total Runs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total runs": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "runs": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate run": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall run": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total inning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "inning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total turn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total batting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total round": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total go": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total shot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "key_measure.total_innings_batted": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Key Measures",
+			          "ConceptualProperty": "Total Innings Batted"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total innings batted": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate inning batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall inning batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total run batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total turn batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total batting batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total score batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total round batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total go batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total shot batted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "key_measure.total_innings_dismissed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Key Measures",
+			          "ConceptualProperty": "Total Innings Dismissed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total innings dismissed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate inning dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall inning dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total run dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total turn dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total batting dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total score dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total round dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total go dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total shot dismissed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "key_measure.batting_average": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Key Measures",
+			          "ConceptualProperty": "Batting Average"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "batting average": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "batting mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "batting norm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "batting mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "batting median": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dim_player_is_named_name": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.name": {
+			          "Target": {
+			            "Entity": "dim_player.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Name": {
+			              "Role": "dim_player.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_winner_win_dim_match_summary": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary.winner": {
+			          "Target": {
+			            "Entity": "dim_match_summary.winner"
+			          }
+			        },
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "dim_match_summary.winner"
+			            },
+			            "Verbs": [
+			              {
+			                "win": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_match_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary.winner"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.winner"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_play": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Verbs": [
+			              {
+			                "play": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75
+			        }
+			      ]
+			    },
+			    "dim_match_summary_is_matched_on_match_date": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.match_date": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "dim_match_summary.match_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "match": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_match_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_team_1": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.team_1": {
+			          "Target": {
+			            "Entity": "dim_match_summary.team_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.team_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_team_2": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.team_2": {
+			          "Target": {
+			            "Entity": "dim_match_summary.team_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.team_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_margin": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.margin": {
+			          "Target": {
+			            "Entity": "dim_match_summary.margin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.margin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_ground": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.ground": {
+			          "Target": {
+			            "Entity": "dim_match_summary.ground"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.ground"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_match_date": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.match_date": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_match_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.match_ID": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_has_stage": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        },
+			        "dim_match_summary.stage": {
+			          "Target": {
+			            "Entity": "dim_match_summary.stage"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.stage"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_has_team": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.team": {
+			          "Target": {
+			            "Entity": "dim_player.team"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.team"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_has_image": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.image": {
+			          "Target": {
+			            "Entity": "dim_player.image"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.image"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_has_batting_style": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.batting_style": {
+			          "Target": {
+			            "Entity": "dim_player.batting_style"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.batting_style"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_has_bowling_style": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.bowling_style": {
+			          "Target": {
+			            "Entity": "dim_player.bowling_style"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.bowling_style"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_has_playing_role": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.playing_role": {
+			          "Target": {
+			            "Entity": "dim_player.playing_role"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.playing_role"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_player_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_players"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          }
+			        },
+			        "dim_player.description": {
+			          "Target": {
+			            "Entity": "dim_player.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "dim_player.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_match": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.match": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.match"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.match"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_team": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.team": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.team"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.team"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_batting_pos": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.batting_pos": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.batting_pos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.batting_pos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_run": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.run": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.run"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.run"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_ball": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.ball": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.ball"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.ball"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_fours": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.fours": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.fours"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.fours"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_six": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.six": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.six"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.six"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_sr": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.sr": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.sr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.sr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_out": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "fact_batting_summary.out": {
+			          "Target": {
+			            "Entity": "fact_batting_summary.out"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary.out"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_match": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.match": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.match"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.match"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_team": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.team": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.team"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.team"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_ball": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.ball": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.ball"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.ball"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_maiden": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.maiden": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.maiden"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.maiden"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_run": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.run": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.run"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.run"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_wicket": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.wicket": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.wicket"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.wicket"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_economy": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.economy": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.economy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.economy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_zero": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.zero": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.zero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.zero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_fours": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.fours": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.fours"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.fours"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_six": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.six": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.six"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.six"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_wide": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.wide": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.wide"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.wide"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_no_ball": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "fact_bowling_summary.no_ball": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary.no_ball"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary.no_ball"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_key_measure_total_runs": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "key_measure.total_runs": {
+			          "Target": {
+			            "Entity": "key_measure.total_runs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "key_measure.total_runs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_key_measure_total_innings_batted": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "key_measure.total_innings_batted": {
+			          "Target": {
+			            "Entity": "key_measure.total_innings_batted"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "key_measure.total_innings_batted"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_key_measure_total_innings_dismissed": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "key_measure.total_innings_dismissed": {
+			          "Target": {
+			            "Entity": "key_measure.total_innings_dismissed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "key_measure.total_innings_dismissed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_key_measure_batting_average": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "key_measure.batting_average": {
+			          "Target": {
+			            "Entity": "key_measure.batting_average"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "key_measure.batting_average"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_dim_match_summary": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_batting_summary_has_dim_player": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_batting_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_batting_summary": {
+			          "Target": {
+			            "Entity": "fact_batting_summary"
+			          }
+			        },
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          },
+			          "Nouns": [
+			            {
+			              "batsman": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_batting_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_player"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "fact_batting_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_dim_match_summary": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "dim_match_summary": {
+			          "Target": {
+			            "Entity": "dim_match_summary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "fact_bowling_summary_has_dim_player": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_bowling_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_bowling_summary": {
+			          "Target": {
+			            "Entity": "fact_bowling_summary"
+			          }
+			        },
+			        "dim_player": {
+			          "Target": {
+			            "Entity": "dim_player"
+			          },
+			          "Nouns": [
+			            {
+			              "bowler": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_bowling_summary"
+			            },
+			            "Object": {
+			              "Role": "dim_player"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_player"
+			            },
+			            "Object": {
+			              "Role": "fact_bowling_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_match_date_has_variation_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary.match_date": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date"
+			          }
+			        },
+			        "dim_match_summary.match_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary.match_date"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_match_date_variation_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary.match_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy"
+			          }
+			        },
+			        "dim_match_summary.match_date.variation.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_match_date_variation_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary.match_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy"
+			          }
+			        },
+			        "dim_match_summary.match_date.variation.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_match_date_variation_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary.match_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy"
+			          }
+			        },
+			        "dim_match_summary.match_date.variation.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dim_match_summary_match_date_variation_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_match_summary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_match_summary.match_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy"
+			          }
+			        },
+			        "dim_match_summary.match_date.variation.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "dim_match_summary.match_date.variation.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_match_summary.match_date.variation.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

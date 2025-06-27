@@ -1,0 +1,133 @@
+table fact_batting_summary
+	lineageTag: d78ee342-3a81-464e-9eca-15bd6c4aad71
+
+	column Match
+		dataType: string
+		lineageTag: 01bd0146-63a7-4a65-99a0-3340381a0cf8
+		summarizeBy: none
+		sourceColumn: Match
+
+		annotation SummarizationSetBy = Automatic
+
+	column Team
+		dataType: string
+		lineageTag: 9b1ee031-4c93-464d-be39-0f9aabd4b8fc
+		summarizeBy: none
+		sourceColumn: Team
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Batting Pos'
+		dataType: int64
+		formatString: 0
+		lineageTag: 376684b9-9868-42f6-9e2a-20802ba555da
+		summarizeBy: sum
+		sourceColumn: Batting Pos
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Batsman Name'
+		dataType: string
+		lineageTag: 3b3a9a66-254b-4601-ac0b-972aacea0c1e
+		summarizeBy: none
+		sourceColumn: Batsman Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Runs
+		dataType: int64
+		formatString: 0
+		lineageTag: eaf9a58e-c7df-4874-b665-93575a388b53
+		summarizeBy: sum
+		sourceColumn: Runs
+
+		annotation SummarizationSetBy = Automatic
+
+	column Balls
+		dataType: int64
+		formatString: 0
+		lineageTag: 21f0a8bb-5fbf-4ee8-b8f5-7cd8652cbd26
+		summarizeBy: sum
+		sourceColumn: Balls
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fours
+		dataType: int64
+		formatString: 0
+		lineageTag: 6bb0525f-4e11-4675-b0ba-26a28e9d2986
+		summarizeBy: sum
+		sourceColumn: Fours
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sixes
+		dataType: int64
+		formatString: 0
+		lineageTag: 4064d987-338d-4dc4-bce0-9e09caf583c0
+		summarizeBy: sum
+		sourceColumn: Sixes
+
+		annotation SummarizationSetBy = Automatic
+
+	column SR
+		dataType: string
+		lineageTag: 30742867-7470-4961-9519-70b445657280
+		summarizeBy: none
+		sourceColumn: SR
+
+		annotation SummarizationSetBy = Automatic
+
+	column OUT
+		dataType: int64
+		formatString: 0
+		lineageTag: b656b3c6-9e7e-46e4-b64b-afba54f43ea0
+		summarizeBy: sum
+		sourceColumn: OUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Match ID'
+		dataType: string
+		lineageTag: 53649cc3-d2c7-4f22-94b7-427a7283c74e
+		summarizeBy: none
+		sourceColumn: Match ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Boundary Runs'
+		dataType: int64
+		formatString: 0
+		lineageTag: 94053c03-505c-4e57-9400-956a97c07273
+		summarizeBy: sum
+		sourceColumn: Boundary Runs
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_batting_summary-f9c58aa4-38b6-433f-b39a-78bec7cac279 = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("D:\Projects\t20-world-cup-2022-analysis\data"),
+				    #"D:\Projects\t20-world-cup-2022-analysis\data\_fact_bating_summary csv" = Source{[#"Folder Path"="D:\Projects\t20-world-cup-2022-analysis\data\",Name="fact_bating_summary.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"D:\Projects\t20-world-cup-2022-analysis\data\_fact_bating_summary csv",[Delimiter=",", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"match", type text}, {"teamInnings", type text}, {"battingPos", Int64.Type}, {"batsmanName", type text}, {"runs", Int64.Type}, {"balls", Int64.Type}, {"4s", Int64.Type}, {"6s", Int64.Type}, {"SR", type text}, {"out/not_out", type text}, {"match_id", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"match", "Match"}, {"teamInnings", "Team Innings"}, {"battingPos", "Batting Pos"}, {"batsmanName", "Batsman Name"}, {"runs", "Runs"}, {"balls", "Balls"}, {"match_id", "Match ID"}, {"out/not_out", "OUT/NOT OUT"}}),
+				    #"Uppercased Text" = Table.TransformColumns(#"Renamed Columns",{{"OUT/NOT OUT", Text.Upper, type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Uppercased Text","_"," ",Replacer.ReplaceText,{"OUT/NOT OUT"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","(c)","",Replacer.ReplaceText,{"Batsman Name"}),
+				    #"Trimmed Text" = Table.TransformColumns(#"Replaced Value1",{{"Batsman Name", Text.Trim, type text}}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Trimmed Text",{{"4s", "Fours"}, {"6s", "Sixes"}, {"Team Innings", "Team"}, {"OUT/NOT OUT", "OUT"}}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Renamed Columns1","OUT","1",Replacer.ReplaceValue,{"OUT"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","NOT OUT","0",Replacer.ReplaceText,{"OUT"}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Replaced Value3",{{"OUT", Int64.Type}}),
+				    #"Added Custom" = Table.AddColumn(#"Changed Type1", "Boundary Runs", each [Fours]*4 + [Sixes]*6),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Added Custom",{{"Boundary Runs", Int64.Type}})
+				in
+				    #"Changed Type2"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
