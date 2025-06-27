@@ -1,7 +1,7 @@
 
 #  2022 T20 World Cup Dashboard
 
----
+
 ## Table of contents 
 - [Overview](#overview)
 - [Data](#data)
@@ -11,7 +11,7 @@
 - [Dashboard Access Steps](#dashboard-access-steps)
 - [Dashboard Preview](#dashboard-preview)
 - [DAX Used](#dax-used)
----
+
 
 ##  Overview
 
@@ -21,14 +21,14 @@ The dashboard allows users to filter and shortlist players based on specific rol
 - **Score at least 180 runs on average**
 - **Defend a target of 150 runs on average**
 
----
+
 ## Data
 
 - Data has been taken from Kaggle [[Dataset Link]](https://www.kaggle.com/datasets/rajsengo/icc-mens-t20-world-cup)
 - The data consists of match-level details, summary, batting card and bowling card of each match
 - Relevant information has been captured, and the clean data is present in the data directory
 
----
+
 ##  Dashboard Highlights
 
 - Fully interactive Power BI report
@@ -87,7 +87,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 | Bowling Average     | < 20            |
 | Dot Ball %          | > 40%           |
 
----
+
 
 ##  Tools Used
 
@@ -105,31 +105,31 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 
 ## Dashboard Preview
-1. Base
+### 1. Base
 
 ![Dashboard_1](images/Dashboard_1.png)
 
-2. Player Details in Tooltip - Power Hitter/ Openers
+### 2. Player Details in Tooltip - Power Hitter/ Openers
 
 ![Dashboard_2](images/Dashboard_2.png)
 
-3. Selected Player Statistics - Anchors
+### 3. Selected Player Statistics - Anchors
 
 ![Dashboard_3](images/Dashboard_3.png)
 
-4. All Rounders Page
+### 4. All Rounders Page
 
 ![Dashboard_4](images/Dashboard_4.png)
 
-5. Selected Player Tooltip and Statistics - Fast Bowlers
+### 5. Selected Player Tooltip and Statistics - Fast Bowlers
 
 ![Dashboard_5](images/Dashboard_5.png)
 
-6. Final 11 Page
+### 6. Final 11 Page
 
 ![Dashboard_6](images/Dashboard_6.png)
 
-7. Dashboard in Action
+### 7. Dashboard in Action
 ![Dashboard](images/Dashboard.gif)
 
 ## DAX Used
@@ -160,20 +160,3 @@ Runs Conceded = SUM(fact_bowling_summary[Runs])
 Total Innings Bowled = DISTINCTCOUNT(fact_bowling_summary[Match ID])
 Wickets = SUM(fact_bowling_summary[Wickets])
 ```
-
-| Rank | Parameter         | Criteria |
-|------|----------------------|-----------------|
-| 1    | Batting Average      | > 30            |
-| 2    | Strike Rate          | > 140           |
-| 3    | Innings Batted       | > 3             |
-| 4    | Boundary %           | > 50%           |
-| 5    | Batting Position     | < 4             |
-
-
-| Parameter         | Criteria |
-| --- | --- |
-| Batting Average   | > 30     |
-| Strike Rate       | > 140    |
-| Innings Batted    | > 3      |
-| Boundary %        | > 50%    |
-| Batting Position  | < 4      |
