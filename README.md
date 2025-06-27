@@ -162,3 +162,16 @@ Runs Conceded = SUM(fact_bowling_summary[Runs])
 Total Innings Bowled = DISTINCTCOUNT(fact_bowling_summary[Match ID])
 Wickets = SUM(fact_bowling_summary[Wickets])
 ```
+
+| Rank | Channel Name         | Subscribers (Million) |
+|------|----------------------|-----------------|
+| 1    | NoCopyrightSounds    | 34.10           |
+| 2    | DanTDM               | 29.20           |
+| 3    | Dan Rhodes           | 26.70           |
+| 4    | Miss Katy            | 25.40           |
+| 5    | KSI Music            | 25.00           |
+| 6    | Mister Max           | 25.00           |
+| 7    | Dua Lipa             | 24.30           |
+| 8    | Jelly                | 23.50           |
+| 9    | Sidemen              | 22.40           |
+| 10   | Mrwhosetheboss       | 21.10           |
