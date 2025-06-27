@@ -1,6 +1,7 @@
 
 #  2022 T20 World Cup Dashboard
 
+---
 ## Table of contents 
 - [Overview](#overview)
 - [Data](#data)
@@ -10,6 +11,7 @@
 - [Dashboard Access Steps](#dashboard-access-steps)
 - [Dashboard Preview](#dashboard-preview)
 - [DAX Used](#dax-used)
+---
 
 ##  Overview
 
@@ -33,8 +35,6 @@ The dashboard allows users to filter and shortlist players based on specific rol
 - Role-wise player segmentation: Openers, Anchors, Finishers, All-rounders, Fast Bowlers
 - Filterable KPIs such as batting average, strike rate, bowling economy, and more
 - Built-in logic to shortlist top candidates for each role
-
----
 
 ##  Player Classification Criteria
 
@@ -96,7 +96,6 @@ The dashboard allows users to filter and shortlist players based on specific rol
 - **DAX** for custom KPIs and metrics
 - **Power Query** for data transformation
 
----
 
 ##  Dashboard Access Steps
 
@@ -104,7 +103,6 @@ The dashboard allows users to filter and shortlist players based on specific rol
 2. Use slicers and filters to explore different role-based selections.
 3. View recommended players based on the preset selection logic.
 
----
 
 ## Dashboard Preview
 1. Base
@@ -163,15 +161,19 @@ Total Innings Bowled = DISTINCTCOUNT(fact_bowling_summary[Match ID])
 Wickets = SUM(fact_bowling_summary[Wickets])
 ```
 
-| Rank | Channel Name         | Subscribers (Million) |
+| Rank | Parameter         | Criteria |
 |------|----------------------|-----------------|
-| 1    | NoCopyrightSounds    | 34.10           |
-| 2    | DanTDM               | 29.20           |
-| 3    | Dan Rhodes           | 26.70           |
-| 4    | Miss Katy            | 25.40           |
-| 5    | KSI Music            | 25.00           |
-| 6    | Mister Max           | 25.00           |
-| 7    | Dua Lipa             | 24.30           |
-| 8    | Jelly                | 23.50           |
-| 9    | Sidemen              | 22.40           |
-| 10   | Mrwhosetheboss       | 21.10           |
+| 1    | Batting Average      | > 30            |
+| 2    | Strike Rate          | > 140           |
+| 3    | Innings Batted       | > 3             |
+| 4    | Boundary %           | > 50%           |
+| 5    | Batting Position     | < 4             |
+
+
+| Parameter         | Criteria |
+| --- | --- |
+| Batting Average   | > 30     |
+| Strike Rate       | > 140    |
+| Innings Batted    | > 3      |
+| Boundary %        | > 50%    |
+| Batting Position  | < 4      |
