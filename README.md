@@ -40,7 +40,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  Openers
 | Parameter         | Criteria |
-|------------------|----------|
+|-------------------|----------|
 | Batting Average   | > 30     |
 | Strike Rate       | > 140    |
 | Innings Batted    | > 3      |
@@ -58,7 +58,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  Finishers / Lower Order Anchors
 | Parameter         | Criteria |
-|------------------|----------|
+|-------------------|----------|
 | Batting Average   | > 25     |
 | Strike Rate       | > 130    |
 | Innings Batted    | > 3      |
@@ -68,7 +68,7 @@ The dashboard allows users to filter and shortlist players based on specific rol
 
 ###  All-Rounders
 | Parameter           | Criteria |
-|--------------------|----------|
+|---------------------|----------|
 | Batting Average     | > 15     |
 | Strike Rate         | > 140    |
 | Innings Batted      | > 2      |
@@ -78,14 +78,14 @@ The dashboard allows users to filter and shortlist players based on specific rol
 | Bowling Strike Rate | < 20     |
 
 ###  Specialist Fast Bowlers
-| Parameter           | Criteria      |
-|--------------------|---------------|
-| Innings Bowled      | > 4           |
-| Bowling Economy     | < 7           |
-| Bowling Strike Rate | < 16          |
+| Parameter           | Criteria        |
+|---------------------|-----------------|
+| Innings Bowled      | > 4             |
+| Bowling Economy     | < 7             |
+| Bowling Strike Rate | < 16            |
 | Bowling Style       | Contains "Fast" |
-| Bowling Average     | < 20          |
-| Dot Ball %          | > 40%         |
+| Bowling Average     | < 20            |
+| Dot Ball %          | > 40%           |
 
 ---
 
